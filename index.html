@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SincoWeb | Desarrollo web</title>
+    <link rel="icon" href="/Assets/Images/logoWeb.png" type="image/png">
+    <meta name="author" content="SincoWeb.">
+    <meta name="description" content="Diseño web. Frontend. Desarrollo web. creación de sitios web profesionales. Desarrollo de páginas web. Diseño web profesional. Desarrollo web a medida.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Css/styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">SincoWeb.</a>
+            
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#ofrecemos" class="nav-link">¿Que ofrecemos?</a>
+                <a href="#work" class="nav-link">Trabajos realizados</a>
+                <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." aria-label="Chatear por WhatsApp" class="nav-link">Contact</a>
+            </nav>
+            
+            <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." aria-label="Chatear por WhatsApp" class="btn-header">
+                Contact <span class="arrow">→</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section fade-in-section" id="home">
+            <div class="hero-glow"></div>
+            
+            <div class="hero-container">
+                <div class="badge-offer">
+                    <span>Diseño web · Desarrollo</span>
+                </div>
+                
+                <div class="hero-content">
+                    <h1 class="hero-title">Creamos sitios web profesionales para vos</h1>
+                    <p class="hero-subtitle">
+                        Desbloquea el potencial completo de tu negocio con un sitio web diseñado a medida que cumpla con las demandas del mundo digital de hoy.
+                    </p>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." aria-label="Chatear por WhatsApp" class="btn-hero">
+                        Contact<span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="portfolio-section">
+            <div class="portfolio-carousel-wrapper fade-in-section">
+                
+                <!-- Flecha Izquierda -->
+                <button class="carousel-arrow prev-btn" id="prevBtn">&#10094;</button>
+                
+                <div class="carousel-window">
+                    <div class="carousel-track" id="carouselTrack">
+                        
+                        <div class="carousel-slide">
+                            <img src="/Assets/Images/NotebookJJ.webp" alt="Proyecto 1">
+                        </div>
+                        
+                        <div class="carousel-slide">
+                            <img src="/Assets/Images/NotebookW.webp" alt="Proyecto 2">
+                        </div>
+                        
+                        <div class="carousel-slide">
+                            <img src="/Assets/Images/NotebookW.webp" alt="Proyecto 3">
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- Flecha Derecha -->
+                <button class="carousel-arrow next-btn" id="nextBtn">&#10095;</button>
+                
+            </div>
+        </section>
+
+        
+        <section class="features-section fade-in-section" id="ofrecemos">
+            <div class="features-container">
+                
+                <div class="features-grid">
+                    
+                    <!-- Tarjeta 1 -->
+                    <div class="feature-card">
+                        <span class="card-number">01</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 0 1 2.25-2.25h7.5A2.25 2.25 0 0 1 18 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 0 0 4.5 9v.878m13.5-3A2.25 2.25 0 0 1 19.5 9v.878m-15 0a2.25 2.25 0 0 0 1.5 2.122v4.378a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-4.378a2.25 2.25 0 0 0 1.5-2.122M4.5 9h15" /></svg>
+                        </div>
+                        <h2>Diseño Profesional</h2>
+                        <p>Sitios web modernos, únicos y adaptados milimétricamente al estilo e identidad de tu negocio.</p>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="feature-card">
+                        <span class="card-number">02</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-6 18.75h9" /></svg>
+                        </div>
+                        <h2>100% Adaptable</h2>
+                        <p>Tu plataforma se verá perfecta y fluida en cualquier pantalla: celulares, tablets y computadoras.</p>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="feature-card">
+                        <span class="card-number">03</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg>
+                        </div>
+                        <h2>Automatización</h2>
+                        <p>Desde integraciones directas con WhatsApp hasta sistemas de gestión automáticos para simplificar tus ventas.</p>
+                    </div>
+
+                </div>
+
+                <div class="performance-card">
+                    <div class="counter-box">
+                        <span class="huge-number" id="speedCounter">0</span>
+                    </div>
+                    <div class="performance-info">
+                        <h2>High Performance</h2>
+                        <p>Tu sitio web alcanzará la máxima puntuación en Google PageSpeed. Esto se traduce de forma directa en tiempos de carga ultrarrápidos para tus usuarios, un posicionamiento SEO mejorado en motores de búsqueda y una experiencia de usuario insuperable. No te conformes con una web lenta.</p>
+                        <div class="performance-badges">
+                            <div class="badge-item">
+                                <span class="badge-circle">99</span>
+                                <p>Google Speed Score</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="portfolio-grid-section fade-in-section" id="work">
+            <div class="portfolio-grid-container">
+                
+                <div class="portfolio-header">
+                    <span class="portfolio-subtitle">Nuestros trabajos realizados</span>
+                    <h2 class="portfolio-title">Casos de Éxito</h2>
+                </div>
+
+                <div class="works-grid">
+                    
+                    <div class="work-card">
+                        <div class="work-image-container">
+                            <img src="../Assets/Images/TresJJ.webp" alt="JJ Mundo Destapaciones Cloacales y Plomería" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>JJ Mundo destapaciones</h3>
+                            <div class="work-meta">
+                                <p><span class="check-icon">✓</span> <strong>Categoría:</strong> Sitio web.</p>
+                                <p><span class="check-icon">✓</span> <strong>Ubicación:</strong> Argentina.</p>
+                            </div>
+                            <a href="https://jjmundodestapacionescloacalesyplomeria.online/" class="btn-work btn-orange" target="_blank" rel="noopener noreferrer" aria-label="Ver sitio web de JJ Mundo destapaciones">
+                                Ver Sitio Web →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="work-card">
+                        <div class="work-image-container">
+                            <img src="/Assets/Images/NotebookJJ.webp" alt="Montique Cleaning" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>Montique Cleaning</h3>
+                            <div class="work-meta">
+                                <p><span class="check-icon">✓</span> <strong>Categoría:</strong> Sitio Corporativo.</p>
+                                <p><span class="check-icon">✓</span> <strong>Ubicación:</strong> Estados Unidos.</p>
+                            </div>
+                            <a href="#" class="btn-work btn-orange" target="_blank" rel="noopener noreferrer">
+                                Ver Sitio Web →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="work-card">
+                        <div class="work-image-container">
+                            <img src="/Assets/Images/NotebookW.webp" alt="Gerbos Art" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>Gerbos Art</h3>
+                            <div class="work-meta">
+                                <p><span class="check-icon">✓</span> <strong>Categoría:</strong> Sitio Corporativo.</p>
+                                <p><span class="check-icon">✓</span> <strong>Ubicación:</strong> España.</p>
+                            </div>
+                            <a href="#" class="btn-work btn-orange" target="_blank" rel="noopener noreferrer">
+                                Ver Sitio Web →
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top-row">
+                <nav class="footer-nav">
+                    <a href="#Work" class="footer-link">Trabajos realizados</a>
+                    <a href="#ofrecemos" class="footer-link">¿Que ofrecemos?</a>
+                    <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." class="footer-link" target="_blank" rel="noopener noreferrer" style="text-decoration:none" aria-label="Chatear por WhatsApp">
+                        Contacto
+                    </a>
+                </nav>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/sincoweb/" class="social-icon social-instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer" aria-label="Ir a Instagram de Sincoweb">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76c-.198.508-.333 1.09-.372 1.942C.01 5.555 0 5.827 0 8s.01 2.445.048 3.299c.04.851.175 1.433.372 1.941a3.9 3.9 0 0 0 .923 1.417 3.9 3.9 0 0 0 1.417.923c.508.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923 3.9 3.9 0 0 0 .923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 8 0zm0 1.441c2.167 0 2.422.008 3.277.047.791.036 1.222.169 1.508.28.379.146.65.322.934.606a2.7 2.7 0 0 1 .606.934c.111.286.244.717.28 1.508.038.855.047 1.11.047 3.278 0 2.168-.008 2.422-.047 3.277-.036.792-.169 1.22-.28 1.508a2.5 2.5 0 0 1-.606.934 2.5 2.5 0 0 1-.934.606c-.286.111-.717.244-1.508.28-.856.038-1.11.047-3.278.047-2.168 0-2.422-.008-3.277-.047-.792-.036-1.22-.169-1.508-.28a2.5 2.5 0 0 1-.934-.606 2.5 2.5 0 0 1-.606-.934c-.111-.286-.244-.717-.28-1.508-.038-.856-.047-1.11-.047-3.278 0-2.168.008-2.422.047-3.277.036-.792.169-1.22.28-1.508.146-.379.322-.65.606-.934.284-.284.555-.46.934-.606.286-.111.717-.244 1.508-.28.856-.038 1.11-.047 3.278-.047zm0 2.446a4.113 4.113 0 1 0 0 8.226 4.113 4.113 0 0 0 0-8.226zm0 6.785A2.672 2.672 0 1 1 8 5.314a2.672 2.672 0 0 1 0 5.358zm4.053-6.858a.928.928 0 1 0 0-1.857.928.928 0 0 0 0 1.857z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." class="social-icon social-whatsapp" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.69-4.98c-.202-.1-.1.195-.403-.352-.303-.556-1.302-1.622-1.504-1.622-.202 0-.303.1-.404.252-.101.148-.393.493-.48.593-.08.102-.163.114-.365.011-.21-.105-.852-.315-1.621-.998-.598-.534-.997-1.193-1.115-1.394-.119-.202-.012-.31.089-.41.09-.091.202-.234.302-.352.093-.117.124-.196.187-.326.063-.13.031-.243-.015-.344-.046-.1-.412-1.012-.565-1.378-.149-.36-.3-.312-.412-.317-.106-.005-.228-.006-.35-.006a.74.74 0 0 0-.536.248c-.183.202-.697.682-.697 1.664s.713 1.928.813 2.062c.1.134 1.402 2.14 3.4 3.003.475.205.847.327 1.134.419.478.152.914.13 1.259.078.385-.058 1.18-.482 1.346-.948.165-.466.165-.866.116-.949-.05-.083-.183-.132-.385-.233"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom-row">
+                <p class="copyright-text">
+                    &copy;Todos los derechos reservados 2026 | <span class="footer-logo">sincoweb.</span>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <div class="wsp-menu-container" id="wsp-container">
+        <a href="https://wa.me/5491139183001?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre%20los%20sitios%20web." class="wsp-main-btn" target="_blank" rel="noopener noreferrer" aria-label="Chatear por WhatsApp">
+            <!-- SVG oficial de WhatsApp -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wsp-svg-icon" fill="currentColor">
+                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+            </svg>
+        </a>
+    </div>
+
+
+    <script src="Assets/Js/script.js" defer></script>
+</body>
+</html>
